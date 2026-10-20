@@ -1,0 +1,332 @@
+header{
+    background-color: rgb(161, 118, 143);
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    padding: 15px 0;
+}
+nav{
+    background-color: rgb(247, 241, 233);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: black;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 30px;
+    color: black;
+
+}
+.hero{
+background-repeat: no-repeat;background-image: url(https://static.vecteezy.com/system/resources/thumbnails/069/442/947/small/luxurious-beauty-cream-pink-roses-image-2023-photo.jpg);
+
+background-size: cover;
+background-position: center;
+height: 350px;
+padding-top: 5%;
+
+
+}
+.hero p{
+margin-bottom: 10px;
+margin-left: 50px;
+}
+
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+margin-left: 50px;
+}
+li a{
+    padding: 0 5px;
+    position: relative;
+    top: 30px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+}
+footer{
+    background-color: rgb(161, 118, 143);
+    text-align: center;
+    padding: 10px 0;
+}
+div{
+    display: inline-block;
+}
+#bob{
+    position: relative;
+}
+.btn{
+    margin-left: 50px;
+    padding: 5px;
+    background-color: rgb(161, 118, 143);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+ #bob{
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.head{
+    
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: rgb(236, 227, 216);
+}
+body{
+    background-color: rgb(255, 252, 248);
+}
+.shop-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 5px;
+    margin: auto;
+    display: inline-block;
+}
+
+.shop-box {
+    background-color: white;
+    width: 200px;
+    padding: 18px;
+    border: 2px solid #d1d5db;
+    border-radius: 10px;
+    text-align: left;
+    display: inline-block;
+}
+.shop-box img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+}
+.shop-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+
+.shop-box {
+    width: 300px;
+    flex-shrink: 0;
+    display: inline-block;
+}
+
+.shop-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.shop-box {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-box p {
+    min-height: 60px;
+}
+
+.shop-box .btn:first-of-type {
+    margin-top: auto;
+}
+
+.shop-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+#card{
+    text-align: end;
+ margin: auto;
+ cursor: pointer;
+ padding-right: 50px;
+}
+.form{
+     background-color: rgb(242, 208, 208);
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+}
+.form{
+    margin-left: 350px;
+    padding-bottom: 100px;
+    text-align: center;
+    text-box: ;
+}
+
+.form form {
+    background-color: rgb(240, 209, 209);
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #5a5452;
+    border-radius: 10px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+
+.form textarea {
+    resize: vertical;
+}
+
+.form .btn {
+    min-width: 150px;
+}
+
+.bob{
+    background-image:url(https://media.istockphoto.com/id/2213957116/photo/abstract-minimal-background-with-pink-and-white-curved-shapes-creating-elegant-design.jpg?s=1024x1024&w=is&k=20&c=0FxhJW90UJNnQwWOOT0LfrEF7f8i3EFeHtDHkBvkOow=) ;
+    background-color: rgb(248, 222, 230);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.uss{
+    text-align: center;
+    background-color: rgb(252, 224, 223);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+#uss{
+    color: rgb(202, 130, 169);
+    text-align: center;
+
+}
+
+#glow{
+    color: rgb(202, 130, 169);
+    text-align: center;
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px;
+}
+
+.about-text {
+    flex: 1.15;
+}
+
+.about-image {
+    flex: 0.85;
+}
+
+.about-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.about-image img {
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.about-text ul{
+    display: inline-block;
+    text-align: left;
+    padding-left: 25px;
+}
+.about-text p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-text h4{
+    margin: 20px 0;
+}
+
+.bob{
+    padding: 20px;
+}
+#bold{
+    font-size: large;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(239, 88, 163);
+}
+#line{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.btn{
+    display: flex;
+justify-content: center;
+gap: 10px;
+display: inline-block;
+margin-top: 10px;
+
+}
+#chekout button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #a66f8d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#chckout-form button:hover {
+    background-color: #8e5574;
+}
